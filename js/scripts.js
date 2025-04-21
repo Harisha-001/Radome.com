@@ -742,3 +742,17 @@ var pbmit_burger_menu = function() {
 	}
 }
 pbmit_burger_menu();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const linkItems = document.querySelectorAll(".link-item");
+
+  linkItems.forEach((item) => {
+    item.addEventListener("mouseenter", function () {
+      this.querySelector("i").style.opacity = "1";
+    });
+
+    item.addEventListener("mouseleave", function () {
+      this.querySelector("i").style.opacity = "0";
+    });
+  });
+});
