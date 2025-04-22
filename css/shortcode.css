@@ -78,7 +78,7 @@
     color: var(--pbmit-global-color);
 }
 .pbmit-heading-subheading.text-global .pbmit-title{
-    color: var(--pbmit-white-color);
+    color: #fff;
 }	
 .pbmit-heading-subheading.text-global .pbmit-heading-desc{
     color: rgba( 255, 255, 255, 0.6);
@@ -3084,10 +3084,10 @@
 .pbmit-bg-color-blackish .pbmit-service-style-2 .pbmit-service-title a,
 .pbmit-bg-color-blackish .pbmit-service-style-2 .pbminfotech-box-number,
 .pbmit-bg-color-blackish .pbmit-service-style-2 .pbmit-service-btn i{
-	color: var(--pbmit-white-color);
+	color: #fff;
 }
 .pbmit-bg-color-blackish .pbmit-service-style-2 .pbmit-service-content p{
-	color: rgba( 255, 255, 255, 0.6);
+	color: rgba(233, 223, 223, 0.6);
 }
 .pbmit-bg-color-blackish .pbmit-service-style-2:hover .pbmit-service-title a,
 .pbmit-bg-color-blackish .pbmit-service-style-2:hover .pbminfotech-box-number,
@@ -8356,7 +8356,7 @@ body.rtl .pbmit-portfolio-style-4 .pbminfotech-titlebox {
 	-ms-transition-delay: 300ms;
 	-o-transition-delay: 300ms;
 	transition-delay: 300ms;
-	background-color: var(--pbmit-white-color);;
+	background-color: #165c7a;
 }
 .floting-bar-wrap.active {
 	right: 0;
@@ -8421,7 +8421,7 @@ body.rtl .pbmit-portfolio-style-4 .pbminfotech-titlebox {
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 400;
-	color: var(--pbmit-blackish-color);
+	color: #fff;
 }
 .floting-bar-wrap h4 {
 	line-height: 28px;
@@ -8812,6 +8812,7 @@ body.rtl .pbmit-portfolio-style-4 .pbminfotech-titlebox {
 	left: 0;
     padding: 0 0 0 40px;
 	border-bottom: 1px solid rgba( 225, 225, 225, 0.3);
+	background-color: #fff;
 }
 .header-style-1 .pbmit-slider-area{
 	position: relative;
@@ -9745,7 +9746,7 @@ body.rtl .pbmit-portfolio-style-4 .pbminfotech-titlebox {
     font-style: normal;
 }
 .pbmit-title-bar-wrapper1 {
-    background-color: rgb(5, 5, 54);
+    background-color: rgb(28, 28, 82);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -9832,7 +9833,6 @@ body.rtl .pbmit-portfolio-style-4 .pbminfotech-titlebox {
   /* feture practice end */
   
   .article-container {
-	max-width: 1170px;
 	margin: 40px auto;
 	border-bottom: 1px solid rgba(10, 10, 10, 0.5);
   }

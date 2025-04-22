@@ -1,21 +1,3 @@
-/******************************
-INDEX:
-    00 - General
-    01 - Typography
-    02 - Text Color & Background Color
-    03 - Background Position & Size
-    04 - Helper class
-    05 - Social icons
-    06 - Header
-    07 - Bootstrap Overwrite 
-    08 - Swiper 
-    09 - Scroll To Top 
-    10 - Search Box
-******************************/
-
-/*----------------------------------------*/
-/* 00 - General 
-/*----------------------------------------*/
  html {
      font-family: sans-serif;
      -webkit-text-size-adjust: 100%;
