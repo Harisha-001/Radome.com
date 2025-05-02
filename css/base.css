@@ -307,12 +307,7 @@ a.link-btn i, .link-btn a i{
    background-color: rgba(0 ,0 ,0 ,.3);
    transition: all .3s ease-out;
 }
-.pbmit-btn:hover:after{
-   width: 100%;
-   height: 100%;
-   background-color: var(--pbmit-blackish-color);
-   border-radius: 30px;
-}
+
 .pbmit-black-global-txt:hover .pbmit-header-button2-text,
 .pbmit-black-global-txt:hover::before,
 .pbmit-white-black-txt::before,
@@ -546,7 +541,7 @@ body .pbmit-bg-color-white{
     padding-bottom:100px;
 }
 .section-lgt{
-   padding-top:100px;
+   padding-top:10px;
 }
 .section-lgb{
    padding-bottom:100px;
