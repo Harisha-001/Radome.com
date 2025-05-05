@@ -756,3 +756,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+window.addEventListener('scroll', function() {
+  const desc = document.querySelector('.description');
+  const scrollPos = window.scrollY;
+  desc.style.textShadow = `0 0 ${5 + scrollPos * 0.02}px rgba(255, 255, 255, 0.7)`;
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const counters = document.querySelectorAll('.stat-number');
+  
+  counters.forEach(counter => {
+    const target = parseInt(counter.textContent); // Get target number
+    let count = 1;
+    const duration = 20000; // 20 seconds
+    const increment = target / (duration / 30); // Update every 50ms
+
+    function updateCount() {
+      count += increment;
+      if (count < target) {
+        counter.textContent = Math.floor(count);
+        setTimeout(updateCount, 7);
+      } else {
+        counter.textContent = target + (target === 150 ? '+' : '');
+      }
+    }
+    updateCount();
+  });
+});
