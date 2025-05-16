@@ -284,19 +284,7 @@
     overflow: hidden;
 }
 
-.digital-studio-about1 .pbmit-image-wrap::after,
-.digital-studio-about1 .pbmit-image-wrap::before {
-    position: absolute;
-    content: "";
-    background-color: var(--pbmit-global-color);
-    height: 194px;
-    width: 230px;
-    bottom: -18px;
-    top: auto;
-    right: 0px;
-    left: auto;
-    transform: rotate(8deg);
-}
+
 
 .digital-studio-about1 .pbmit-image-wrap::after {
     height: 180px;
@@ -2023,9 +2011,9 @@
 }
 
 .development-agency-team .pbmit-col-right-inner {
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/development-agency/team.jpg);
+    width: 120%;
+    height: 130%;
+    background-image: url(../images/images-08.jpg);
     background-position: center right;
     background-size: auto;
     background-attachment: fixed;
