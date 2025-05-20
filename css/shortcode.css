@@ -4420,10 +4420,10 @@
 	background-color: var(--pbmit-global-color);
 	padding: 8px 10px;
 }
-.pbmit-element-portfolio-style-2 .pbmit-title span{
+.pbmit-element-portfolio-style-2 .pbmit-title{
 	position: relative;
 	display: inline-block;
-	color: var(--pbmit-white-color);
+	color: #1ad8d3;
 }
 .pbmit-element-portfolio-style-2 .pbmit-title span:last-child{
 	padding-right: 50px;
