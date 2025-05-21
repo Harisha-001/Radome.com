@@ -326,7 +326,7 @@ body{
 	background: var(--accent-color);
 }
 
-.preloader{
+/* .preloader{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -337,9 +337,9 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
-.loading-container,
+/* .loading-container,
 .loading{
 	height: 100px;
 	position: relative;
@@ -379,7 +379,7 @@ body{
 	100%{
 		transform: rotate(360deg);
 	}
-}
+} */
 
 .section-row{
 	position: relative;
