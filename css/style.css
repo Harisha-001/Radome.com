@@ -5795,7 +5795,7 @@ body {
 
 
 .site-footer{
-    background-color: #16213E !important;
+    background-color: #1b1b1b !important;
     
 }
 
@@ -5827,10 +5827,6 @@ body {
     text-align: center;
     transition: all 0.3s ease-in;
 }
-
-
-
-
 
 .our-history{
 	padding: 100px 0;
