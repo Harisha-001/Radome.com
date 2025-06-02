@@ -4941,7 +4941,7 @@
 }
 
 .contact-section-style-2 .form-wrapper {
-    background-color: var(--pbmit-blackish-color);
+    background-color: #07124d;
     padding: 65px 50px 20px;
 }
 
@@ -4950,7 +4950,7 @@
 }
 
 .contact-section-style-2 .pbmit-btn:hover .pbmit-header-button2-text {
-    color: var(--pbmit-white-color);
+    color: #fff;
 }
 
 .contact-section-style-2 .pbmit-btn::before {
@@ -4958,7 +4958,7 @@
 }
 
 .contact-section-style-2 .pbmit-btn:hover::before {
-    color: var(--pbmit-white-color);
+    color: #fff;;
 }
 
 .contact-section-style-2 .pbmit-btn::after {
@@ -5795,7 +5795,7 @@ body {
 
 
 .site-footer{
-    background-color: #1b1b1b !important;
+    background-color: #16213E !important;
     
 }
 

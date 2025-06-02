@@ -2393,7 +2393,7 @@ header.main-header .header-sticky.active {
 	position: relative;
 	border: 1px solid var(--dark-divider-color);
 	border-radius: 40px;
-	background: #080808;
+	background: #f1efef;
 	margin-top: -200px;
 	overflow: hidden;
 	z-index: 1;
@@ -2407,7 +2407,7 @@ header.main-header .header-sticky.active {
 	justify-content: center;
 	padding: 0;
 	margin: 0;
-	background: #080808;
+	background: #f3f0f0;
 	border-bottom: 1px solid var(--divider-color);
 	overflow: hidden;
 }
@@ -2428,7 +2428,7 @@ header.main-header .header-sticky.active {
 	width: 100%;
 	border: none;
 	border-radius: 0;
-	color: #fffeff;
+	color: #000000;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.2em;
@@ -2439,8 +2439,8 @@ header.main-header .header-sticky.active {
 
 .mission-vision-nav ul li .nav-link.active,
 .mission-vision-nav ul li .nav-link:hover {
-	background:#fdfcfd;
-	color: rgb(0, 0, 0);
+	background:#000000;
+	color: rgb(255, 255, 255);
 	border-radius: 0;
 }
 

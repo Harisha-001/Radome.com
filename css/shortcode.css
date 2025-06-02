@@ -673,9 +673,9 @@
 .pbmit-ihbox-style-7:hover .pbmit-ihbox-icon-type-text{
 	color: var(--pbmit-global-color);
 }
-.pbmit-ihbox-style-7:hover{
-	background-color: var(--pbmit-blackish-color);
-}
+/* .pbmit-ihbox-style-7:hover{
+	background-color: #00b4ff;
+} */
 .pbmit-ihbox-style-7:hover .pbmit-element-title,
 .pbmit-ihbox-style-7:hover .pbmit-heading-desc{
 	color: var(--pbmit-white-color);
